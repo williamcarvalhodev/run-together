@@ -108,6 +108,111 @@ body {
   color: #0d1b2a;
 }
 
+
+/* Info section */
+.info-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    border-bottom: 3px solid #f1f5f9;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.info-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-template-areas:
+    "icon title"
+    "icon description";
+  column-gap: 24px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.info-card > i {
+  grid-area: icon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 42px;
+  color: #54b953;
+  background-color: #eef9ed;
+  border-radius: 50%;
+}
+
+/* Info Title */
+.info-card > h3 {
+  grid-area: title;
+  align-self: end;
+  margin: 0 0 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Info Text */
+.info-card > p {
+  grid-area: description;
+  align-self: start;
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.bi-people-fill,
+.bi-speedometer2,
+.bi-calendar3 {
+  background-color: #eef7ed;
+  color: #22c55e;
+  font-size: 60px;
+  padding: 30px;
+  border-radius: 100%;
+}
+
+/* Laptop navigation */
+@media (max-width: 1280px) {
+
+  
+}
+
+/* Tablet navigation */
+@media (max-width: 1024px) {
+
+  .info-card {
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    padding: 0;
+  }
+
+  .info-card > i {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  .info-card > h3 {
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+
+  .info-card > p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+}
+
+
 /* Mobile navigation */
 @media (max-width: 767px) {
 
@@ -155,6 +260,36 @@ body {
     width: 100%;
   }
 
-  
+  .info-section {
+    padding: 20px;
+}
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .info-card {
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    padding: 0;
+  }
+
+  .info-card> i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .info-card> h3 {
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+
+  .info-card > p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
 }
