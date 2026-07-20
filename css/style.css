@@ -167,6 +167,7 @@ body {
   text-align: left;
   font-size: 15px;
   line-height: 1.2;
+  color: #475569;
 }
 
 .bi-people-fill,
@@ -177,6 +178,69 @@ body {
   font-size: 60px;
   padding: 30px;
   border-radius: 100%;
+}
+
+
+/* Features section */
+.running-card {
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.running-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+}
+
+.running-card .card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.running-card .card-title {
+  color: #0d1b2a;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.running-card .card-text {
+  font-size: 14px;
+  color: #475569;
+}
+
+.running-badge {
+  margin-right: 0px;
+  background-color: #e8f8ec;
+  color: #22c55e;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.view-group-button {
+  display: flex;
+  margin-bottom: 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.view-group-button .btn {
+  padding: 0.85rem 1.75rem;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.view-group-button .btn-success {
+  border-color: #22c55e;
+  background-color: #22c55e;
 }
 
 /* Laptop navigation */
