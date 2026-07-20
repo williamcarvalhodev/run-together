@@ -237,6 +237,84 @@ body {
   background-color: #22c55e;
 }
 
+/* Footer */
+.site-footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: 190px;
+  height: auto;
+}
+
+.footer-description {
+  max-width: 320px;
+  margin-bottom: 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.footer-heading {
+  margin-bottom: 1.25rem;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a,
+.footer-contact a,
+.external-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-contact a:hover,
+.external-link:hover {
+  color: #84cc16;
+}
+
+.footer-contact {
+  margin-bottom: 1rem;
+  color: #cbd5e1;
+  font-style: normal;
+}
+
+.footer-contact p {
+  display: flex;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.footer-contact i,
+.external-link i {
+  color: #84cc16;
+}
+
+.external-link {
+  font-weight: 600;
+}
+
+.footer-bottom {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-top: 1px solid rgb(255 255 255 / 12%);
+  color: #94a3b8;
+  text-align: center;
+}
+
 /* Laptop navigation */
 @media (max-width: 1280px) {
 
