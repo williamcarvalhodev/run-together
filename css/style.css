@@ -108,9 +108,9 @@ body {
   color: #0d1b2a;
 }
 
-
 /* Mobile navigation */
-@media (max-width: 991px) {
+@media (max-width: 767px) {
+
   .site-logo {
     width: 170px;
   }
@@ -124,29 +124,27 @@ body {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
-}
 
-@media (max-width: 767px) {
   .hero {
-    min-height: 700px;
+    min-height: 650px;
     background-image: url("../images/hero-image-mobile.jpg");
+    align-items: end;
   }
 
   .hero-content {
-    padding-top: 16rem;
-    padding-bottom: 4rem;
+    padding: 35px;
   }
 
   .hero-subtitle {
-    font-size: 0.85rem;
+    font-size: 15px;
   }
 
   .hero-title {
-    font-size: 2.35rem;
+    font-size: 35px;
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: 15px;
   }
 
   .hero-buttons {
@@ -156,4 +154,7 @@ body {
   .hero-buttons .btn {
     width: 100%;
   }
+
+  
+
 }
