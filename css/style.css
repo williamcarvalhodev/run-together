@@ -287,6 +287,40 @@ body {
   display: block;
 }
 
+/* Suggest section running group page */
+.suggest-group-banner {
+  margin-top: 40px;
+  border: 1px solid #dcfce7;
+  background-color: #f0fdf4;
+}
+
+.suggest-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.suggest-description {
+  font-size: 17px;
+  color: #475569;
+}
+
+.suggest-group-icon {
+  display: inline-flex;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #22c55e;
+  border-radius: 50%;
+  color: #22c55e;
+  font-size: 2rem;
+}
+
+.suggest-group-banner .btn {
+  text-transform: uppercase;
+}
+
 /* Footer */
 .site-footer {
   background-color: #0d1b2a;
@@ -515,6 +549,24 @@ body {
   .card-description,
   .form-label {
     font-size: 16px;
+  }
+
+  .suggest-group-banner .btn {
+    width: 100%;
+  }
+
+  .suggest-title {
+    font-size: 18px;
+  }
+
+  .suggest-description {
+    font-size: 14px;
+  }
+
+  .suggest-group-icon {
+    width: 54px;
+    height: 54px;
+    font-size: 1.6rem;
   }
 
 }
