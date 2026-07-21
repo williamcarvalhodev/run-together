@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -145,11 +145,11 @@ body {
 
 /* Info section */
 .info-section {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px;
-    border-bottom: 3px solid #f1f5f9;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+  border-bottom: 3px solid #f1f5f9;
 }
 
 .info-grid {
@@ -171,7 +171,7 @@ body {
   box-sizing: border-box;
 }
 
-.info-card > i {
+.info-card>i {
   grid-area: icon;
   display: flex;
   align-items: center;
@@ -184,7 +184,7 @@ body {
 }
 
 /* Info Title */
-.info-card > h3 {
+.info-card>h3 {
   grid-area: title;
   align-self: end;
   margin: 0 0 10px;
@@ -194,7 +194,7 @@ body {
 }
 
 /* Info Text */
-.info-card > p {
+.info-card>p {
   grid-area: description;
   align-self: start;
   margin: 0;
@@ -269,6 +269,22 @@ body {
 .view-group-button .btn-success {
   border-color: #22c55e;
   background-color: #22c55e;
+}
+
+/* Cards section running group page */
+.card-description,
+.form-label {
+  padding-left: 10px;
+  font-size: 17px;
+  color: #475569;
+}
+
+.registration-success {
+  display: none;
+}
+
+.registration-success:target {
+  display: block;
 }
 
 /* Footer */
@@ -350,10 +366,7 @@ body {
 }
 
 /* Laptop navigation */
-@media (max-width: 1280px) {
-
-  
-}
+@media (max-width: 1280px) {}
 
 /* Tablet navigation */
 @media (max-width: 1024px) {
@@ -364,32 +377,32 @@ body {
     padding: 0;
   }
 
-  .info-card > i {
+  .info-card>i {
     width: 60px;
     height: 60px;
     font-size: 30px;
   }
 
-  .info-card > h3 {
+  .info-card>h3 {
     font-size: 17px;
     margin-bottom: 6px;
   }
 
-  .info-card > p {
+  .info-card>p {
     font-size: 14px;
     line-height: 1.5;
   }
 
   .running-card .card-title {
-  color: #0d1b2a;
-  font-size: 22px;
-  font-weight: 700;
-}
+    color: #0d1b2a;
+    font-size: 22px;
+    font-weight: 700;
+  }
 
-.running-card .card-text {
-  font-size: 14px;
-  color: #475569;
-}
+  .running-card .card-text {
+    font-size: 14px;
+    color: #475569;
+  }
 
 }
 
@@ -458,10 +471,10 @@ body {
   .banner-description {
     font-size: 14px;
   }
-  
+
   .info-section {
     padding: 20px;
-}
+  }
 
   .info-grid {
     grid-template-columns: 1fr;
@@ -475,18 +488,18 @@ body {
     padding: 0;
   }
 
-  .info-card> i {
+  .info-card>i {
     width: 50px;
     height: 50px;
     font-size: 30px;
   }
 
-  .info-card> h3 {
+  .info-card>h3 {
     font-size: 17px;
     margin-bottom: 6px;
   }
 
-  .info-card > p {
+  .info-card>p {
     font-size: 14px;
     line-height: 1.5;
   }
@@ -496,8 +509,12 @@ body {
   }
 
   .running-card .card-text {
-  font-size: 15px;
-  color: #475569;
-}
+    font-size: 15px;
+  }
+
+  .card-description,
+  .form-label {
+    font-size: 16px;
+  }
 
 }

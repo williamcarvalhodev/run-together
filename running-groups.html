@@ -61,23 +61,261 @@
     </header>
 
     <!-- Banner section -->
-  <main>
-    <section class="banner" aria-labelledby="hero-title">
-      <div class="container">
-        <div class="row align-items-center">
-          <header class="banner-content col-12 col-lg-6">
-            <h1 id="banner-title" class="banner-title">
-              Running Groups
-            </h1>
+    <main>
+        <section class="banner" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="row align-items-center">
+                    <header class="banner-content col-12 col-lg-6">
+                        <h1 id="banner-title" class="banner-title">
+                            Running Groups
+                        </h1>
 
-            <p class="banner-description">
-              Whether you're a beginner or an experienced runner,<br>
-              find a group that matches your pace, distance and goals.
-            </p>
-          </header>
-        </div>
-      </div>
-    </section>
+                        <p class="banner-description">
+                            Whether you're a beginner or an experienced runner,<br>
+                            find a group that matches your pace, distance and goals.
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </section>
+
+        <!-- Running groups section -->
+        <section class="running-section container py-5">
+            <h2 class="mb-4 fs-1 fw-bold">
+                All Running Groups
+            </h2>
+
+            <div class="row g-4">
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="/images/beginners-social-run.webp" class="card-img-top"
+                            alt="Beginner running group training in a park" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">Beginner Social Run</h3>
+                            <p>
+                                <span class="badge running-badge">Beginner</span>
+                                <span class="badge running-badge">3–5 km</span>
+                            </p>
+                            <p class="card-description">
+                                A friendly and relaxed group for new runners building confidence, consistency and
+                                healthy habits.
+                            </p>
+                            <p class="card-text ms-2">Tuesdays · 6:30 PM</p>
+                            <p class="card-text ms-2">Leopardstown Park</p>
+
+                            <!-- Running groups form section -->
+                            <form action="#beginner-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label form-style">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="forest-email" name="email" class="form-control input-form mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="beginner-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="./images/city-5k-group.webp" class="card-img-top"
+                            alt="Running group training near the city" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">City 5K Group</h3>
+                            <p>
+                                <span class="badge running-badge">
+                                    Beginner / Intermediate
+                                </span>
+                                <span class="badge running-badge">5 km</span>
+                            </p>
+                            <p class="card-description">
+                                A social 5K session for runners ready to improve their pace and enjoy structured city
+                                training.
+                            </p>
+                            <p class="card-text ms-2">Thursdays · 7:00 PM</p>
+                            <p class="card-text ms-2">Dublin City Center</p>
+
+                           <!-- Running groups form section -->
+                            <form action="#city-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="forest-email" name="email" class="form-control mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="city-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="./images/weekend-long-run.webp" class="card-img-top"
+                            alt="Running group training on a woodland trail" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">Weekend Long Run</h3>
+                            <p>
+                                <span class="badge running-badge">Intermediate</span>
+                                <span class="badge running-badge">10–18 km</span>
+                            </p>
+                            <p class="card-description">
+                                A supportive endurance session for runners preparing for longer distances and new
+                                personal challenges.
+                            </p>
+                            <p class="card-text ms-2">Sundays · 8:30 AM</p>
+                            <p class="card-text ms-2">Phoenix Park</p>
+
+                            <!-- Running groups form section -->
+                            <form action="#weekend-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="forest-email" name="email" class="form-control mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="weekend-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="/images/urban-bridge.webp" class="card-img-top"
+                            alt="Beginner running group training in a park" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">Urban Bridge</h3>
+                            <p>
+                                <span class="badge running-badge">Intermediate</span>
+                                <span class="badge running-badge">7–10 km</span>
+                            </p>
+                            <p class="card-description">
+                                A steady-paced city run for runners looking to improve speed, fitness and consistency.
+                            </p>
+                            <p class="card-text ms-2">Wednesdays · 6:30 PM</p>
+                            <p class="card-text ms-2">City Bridge</p>
+
+                            <!-- Running groups form section -->
+                            <form action="#bridge-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="forest-email" name="email" class="form-control mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="bridge-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="/images/forest-trail-challenge.webp" class="card-img-top"
+                            alt="Beginner running group training in a park" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">Forest Trail Challenge</h3>
+                            <p>
+                                <span class="badge running-badge">Advanced</span>
+                                <span class="badge running-badge">18–25 km</span>
+                            </p>
+                            <p class="card-description">
+                                A challenging trail session with varied terrain for experienced runners building
+                                strength and endurance.
+                            </p>
+                            <p class="card-text ms-2">Saturdays· 8:00 AM</p>
+                            <p class="card-text ms-2">Ticknock Mountain</p>
+
+                            <!-- Running groups form section -->
+                            <form action="#forest-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="forest-email" name="email" class="form-control mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="forest-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="col-12 col-md-6 col-lg-4">
+                    <section class="card running-card h-100">
+                        <img src="/images/coastal-endurance-run.webp" class="card-img-top"
+                            alt="Beginner running group training in a park" />
+
+                        <section class="card-body">
+                            <h3 class="card-title h5">Coastal Endurance Run</h3>
+                            <p>
+                                <span class="badge running-badge">Advanced</span>
+                                <span class="badge running-badge">18–25 km</span>
+                            </p>
+                            <p class="card-description">
+                                A scenic long-distance run for experienced runners preparing for half-marathon and
+                                marathon events.
+                            </p>
+                            <p class="card-text ms-2">Sundays · 8:30 AM</p>
+                            <p class="card-text ms-2">Bray Coastal Path</p>
+
+                            <!-- Running groups form section -->
+                            <form action="#coastal-success" method="get" class="mt-4">
+                                <label for="coastal-email" class="form-label">
+                                    Please write your email to register in this group
+                                </label>
+                                <input type="email" id="coastal-email" name="email" class="form-control mb-3"
+                                    placeholder="Enter your email" autocomplete="email" required />
+                                <button type="submit" class="btn btn-success">
+                                    Register Now
+                                </button>
+                            </form>
+                            <aside id="coastal-success" class="registration-success alert alert-success mt-3"
+                                role="status">
+                                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                                Registration successful! An email with further details has been sent.
+                            </aside>
+                        </section>
+                    </section>
+                </article>
+            </div>
+        </section>
     </main>
 
     <!-- Footer section -->
