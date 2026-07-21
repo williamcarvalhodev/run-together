@@ -109,6 +109,40 @@ body {
 }
 
 
+/* Banner section Running Group page */
+.banner {
+  display: flex;
+  min-height: 500px;
+  background-color: #0d1b2a;
+  background-image: url("../images/banner-running-groups.webp");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.banner-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #ffffff;
+}
+
+.banner-title {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.banner-description {
+  max-width: 520px;
+  margin-bottom: 2rem;
+  color: #f1f5f9;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+
 /* Info section */
 .info-section {
     width: 100%;
@@ -407,6 +441,24 @@ body {
     width: 100%;
   }
 
+  .banner {
+    min-height: 600px;
+    background-image: url("../images/banner-running-groups-mobile.webp");
+    align-items: end;
+  }
+
+  .banner-content {
+    padding: 35px;
+  }
+
+  .banner-title {
+    font-size: 35px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+  
   .info-section {
     padding: 20px;
 }
