@@ -239,7 +239,9 @@ body {
 
 .bi-people-fill,
 .bi-speedometer2,
-.bi-calendar3 {
+.bi-calendar3,
+.bi-geo-alt,
+.bi-trophy {
   background-color: #eef7ed;
   color: #22c55e;
   font-size: 60px;
@@ -352,6 +354,37 @@ body {
 
 .suggest-group-banner .btn {
   text-transform: uppercase;
+}
+
+
+/* Calendar list section events page */
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event-date-title,
+.event-distance-title,
+.event-location-title,
+.event-level-title,
+.event-status-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.event-date,
+.event-distance,
+.event-location,
+.event-level,
+.event-status {
+  font-size: 15px;
+  color: #475569;
+}
+
+.btn-view {
+  padding: 6px 20px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 /* Footer */
@@ -618,6 +651,32 @@ body {
     width: 54px;
     height: 54px;
     font-size: 1.6rem;
+  }
+
+  .event-title {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .event-date-title,
+  .event-distance-title,
+  .event-location-title,
+  .event-level-title,
+  .event-status-title {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .event-date,
+  .event-distance,
+  .event-location,
+  .event-level,
+  .event-status {
+    font-size: 16px;
+  }
+
+  .btn-view {
+    margin-top: 16px;
   }
 
 }
