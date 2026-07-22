@@ -13,7 +13,7 @@ motivating by centralising information about running groups and events.
 - Home
 - Running Groups
 - Events
-- About & Contact
+- Contact
 
 ## Technologies
 
