@@ -21,7 +21,6 @@ motivating by centralising information about running groups and events.
 - CSS3
 - Bootstrap 5
 - Bootstrap Icons
-- JavaScript
 - Git and GitHub
 
 ## Main Features
