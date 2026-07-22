@@ -250,7 +250,7 @@ body {
 }
 
 
-/* Running section */
+/* Running cards section */
 .running-card {
   overflow: hidden;
   border: 1px solid #e2e8f0;
@@ -386,6 +386,11 @@ body {
   font-size: 13px;
   font-weight: bold;
 }
+
+.youtube-video {
+  border-radius: 20px;
+}
+
 
 /* Footer */
 .site-footer {
@@ -677,6 +682,10 @@ body {
 
   .btn-view {
     margin-top: 16px;
+  }
+
+  .container-video {
+    padding: 30px;
   }
 
 }
