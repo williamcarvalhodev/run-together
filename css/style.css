@@ -391,6 +391,9 @@ body {
   border-radius: 20px;
 }
 
+.gallery-image {
+  border-radius: 15px;
+}
 
 /* Footer */
 .site-footer {
@@ -627,7 +630,8 @@ body {
     line-height: 1.5;
   }
 
-  .running-section {
+  .running-section,
+  .gallery-section {
     padding: 30px;
   }
 
@@ -687,5 +691,10 @@ body {
   .container-video {
     padding: 30px;
   }
+
+  .gallery-section {
+    padding: 30px;
+  }
+  
 
 }
