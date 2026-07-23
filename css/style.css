@@ -427,11 +427,19 @@ body {
   border-radius: 15px;
 }
 
-/* Footer */
 .contact-form i,
 .external-link i {
   font-size: 20px;
   color: #22c55e;
+}
+
+/* Maps section */
+.maps-section {
+  border-top: 3px solid #f1f5f9;
+}
+
+.map-container>iframe {
+  border-radius: 20px;
 }
 
 /* Footer */
