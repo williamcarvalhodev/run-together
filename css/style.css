@@ -176,7 +176,7 @@ body {
 }
 
 /* Banner section contact page */
-.banner-contact{
+.banner-contact {
   display: flex;
   min-height: 500px;
   background-color: #0d1b2a;
@@ -425,6 +425,13 @@ body {
 
 .gallery-image {
   border-radius: 15px;
+}
+
+/* Footer */
+.contact-form i,
+.external-link i {
+  font-size: 20px;
+  color: #22c55e;
 }
 
 /* Footer */
@@ -747,7 +754,11 @@ body {
   }
 
   .responsive-video {
-  --bs-aspect-ratio: 100%;
-}
+    --bs-aspect-ratio: 100%;
+  }
+
+  .contact-form {
+    padding: 30px;
+  }
 
 }
