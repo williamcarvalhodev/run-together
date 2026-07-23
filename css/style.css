@@ -534,7 +534,7 @@ body {
 
   .hero {
     min-height: 650px;
-    background-image: url("../images/hero-image-mobile.jpg");
+    background-image: url("../images/hero-image-mobile.webp");
     align-items: end;
   }
 
