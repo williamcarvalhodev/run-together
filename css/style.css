@@ -175,6 +175,38 @@ body {
   line-height: 1.8;
 }
 
+/* Banner section contact page */
+.banner-contact{
+  display: flex;
+  min-height: 500px;
+  background-color: #0d1b2a;
+  background-image: url("../images/banner-contact.webp");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.banner-contact-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #ffffff;
+}
+
+.banner-contact-title {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.banner-contact-description {
+  max-width: 520px;
+  margin-bottom: 2rem;
+  color: #f1f5f9;
+  font-size: 17px;
+  line-height: 1.8;
+}
 
 /* Info section */
 .info-section {
@@ -595,6 +627,24 @@ body {
   }
 
   .banner-events-description {
+    font-size: 14px;
+  }
+
+  .banner-contact {
+    min-height: 600px;
+    background-image: url("../images/banner-contact-mobile.webp");
+    align-items: end;
+  }
+
+  .banner-contact-content {
+    padding: 35px;
+  }
+
+  .banner-contact-title {
+    font-size: 35px;
+  }
+
+  .banner-contact-description {
     font-size: 14px;
   }
 
