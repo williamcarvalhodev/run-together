@@ -390,34 +390,31 @@ body {
 
 
 /* Calendar list section events page */
-.event-title {
-  font-size: 20px;
-  font-weight: bold;
+.event-link {
+  color: #0d1b2a;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.event-date-title,
-.event-distance-title,
-.event-location-title,
-.event-level-title,
-.event-status-title {
-  font-size: 15px;
-  font-weight: bold;
+.event-link:hover,
+.event-link:focus {
+  color: #65a30d;
+  text-decoration: underline;
 }
 
-.event-date,
-.event-distance,
-.event-location,
-.event-level,
-.event-status {
-  font-size: 15px;
-  color: #475569;
+.table-responsive {
+  background-color: #ffffff;
 }
 
-.btn-view {
-  padding: 6px 20px;
-  font-size: 13px;
-  font-weight: bold;
+.table th,
+.table td {
+  padding: 1rem;
 }
+
+.table caption {
+  background-color: #f8fafc;
+}
+
 
 .youtube-video {
   border-radius: 20px;
@@ -727,30 +724,14 @@ body {
     font-size: 1.6rem;
   }
 
-  .event-title {
-    font-size: 21px;
-    font-weight: bold;
+  .table {
+    min-width: 850px;
   }
 
-  .event-date-title,
-  .event-distance-title,
-  .event-location-title,
-  .event-level-title,
-  .event-status-title {
-    font-size: 17px;
-    font-weight: bold;
-  }
-
-  .event-date,
-  .event-distance,
-  .event-location,
-  .event-level,
-  .event-status {
-    font-size: 16px;
-  }
-
-  .btn-view {
-    margin-top: 16px;
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
   }
 
   .container-video {
