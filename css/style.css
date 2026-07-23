@@ -695,6 +695,9 @@ body {
   .gallery-section {
     padding: 30px;
   }
-  
+
+  .responsive-video {
+  --bs-aspect-ratio: 100%;
+}
 
 }
