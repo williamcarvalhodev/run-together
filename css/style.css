@@ -430,6 +430,12 @@ body {
   color: #22c55e;
 }
 
+.form-container {
+  padding: 30px;
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+}
+
 /* Maps section */
 .maps-section {
   border-top: 3px solid #f1f5f9;
