@@ -1,21 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Contact RunTogether for information about running groups, events and community participation." />
+    content="Contact RunTogether for information about running groups, events and community participation.">
   <title>Run Together - Contact</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="index.html">
-          <img src="./images/RunTogether-logo.webp" alt="RunTogether logo" class="site-logo" />
+          <img src="./images/RunTogether-logo.webp" alt="RunTogether logo" class="site-logo">
         </a>
 
         <!-- Mobile hamburger button -->
@@ -94,80 +94,113 @@
             Send us a message, complete the form and we will get back to you.
           </p>
 
-          <ul class="list-group">
-            <p><i class="bi bi-envelope-fill me-2" aria-hidden="true"></i>info@runtogether.ie</a></p>
-            <p><i class="bi bi-telephone-fill me-2" aria-hidden="true"></i>+353 012 345 6789</p>
-            <p><i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>Dublin, Ireland</p>
-            <p><i class="bi bi-alarm-fill me-2" aria-hidden="true"></i>Mon-Fri: 9:00 - 16:00</p>
+          <ul class="list-unstyled contact-details">
+            <li class="mb-3">
+              <i class="bi bi-envelope me-2" aria-hidden="true"></i>
+              info@runtogether.ie
+            </li>
+
+            <li class="mb-3">
+              <i class="bi bi-telephone me-2" aria-hidden="true"></i>
+              +353 1 234 5678
+            </li>
+
+            <li class="mb-3">
+              <i class="bi bi-geo me-2" aria-hidden="true"></i>
+              Dublin, Ireland
+            </li>
+
+            <li class="mb-3">
+              <i class="bi bi-clock me-2" aria-hidden="true"></i>
+              Monday to Friday, 9:00 AM–5:00 PM
+            </li>
           </ul>
         </section>
 
         <!-- Form section -->
-        <section class="col-12 col-md-6">
-          <section class="container my-5">
+        <div class="col-12 col-md-6">
+          <div class="container my-5">
             <div class="row justify-content-center">
-              <section class="col-12 col-md-8 col-lg-6 w-100 border rounded p-4">
+              <div class="col-12 col-md-8 col-lg-6 w-100 border rounded p-4">
+                <h3 class="mb-4">Send Us a Message</h3>
+
                 <form action="#" method="post">
                   <div class="mb-3">
-                    <label for="full-name" class="form-label">Full Name</label>
-                    <input type="text" s class="form-control" id="full-name" name="full-name"
-                      placeholder="Enter your full name" required />
+                    <label for="full-name" class="form-label">
+                      Full Name
+                    </label>
+
+                    <input type="text" class="form-control" id="full-name" name="full-name"
+                      placeholder="Enter your full name" autocomplete="name" required>
                   </div>
+
                   <div class="mb-3">
-                    <label for="email" class="form-label">Email Address</label>
+                    <label for="email" class="form-label">
+                      Email Address
+                    </label>
+
                     <input type="email" class="form-control" id="email" name="email"
-                      placeholder="Enter your email address" required />
+                      placeholder="Enter your email address" autocomplete="email" required>
                   </div>
+
                   <div class="mb-3">
-                    <label for="subject" class="form-label">Subject</label>
+                    <label for="subject" class="form-label">
+                      Subject
+                    </label>
+
                     <input type="text" class="form-control" id="subject" name="subject"
-                      placeholder="What is your message about?" required />
+                      placeholder="What is your message about?" required>
                   </div>
+
                   <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
+                    <label for="message" class="form-label">
+                      Message
+                    </label>
+
                     <textarea class="form-control" id="message" name="message" rows="5"
                       placeholder="Write your message here" required></textarea>
                   </div>
+
                   <button type="submit" class="btn btn-success">
                     Send Message
                   </button>
                 </form>
-              </section>
+              </div>
             </div>
-          </section>
-        </section>
-
-        <!-- Google maps section -->
-        <section class="maps-section container py-5">
-          <h2 class="mb-4 fs-1 fw-bold">
-            Our Location
-          </h2>
-
-          <div class="map-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76257.89728710684!2d-6.3281034318511535!3d53.32429171645682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin%2C%20Ireland!5e0!3m2!1sen!2snl!4v1784812689802!5m2!1sen!2snl"
-              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin">
-            </iframe>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google maps section -->
+    <section class="maps-section container py-5">
+      <h2 class="mb-4 fs-1 fw-bold">
+        Our Location
+      </h2>
+
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76257.89728710684!2d-6.3281034318511535!3d53.32429171645682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin%2C%20Ireland!5e0!3m2!1sen!2snl!4v1784812689802!5m2!1sen!2snl" 
+          title="Map showing Dublin, Ireland" 
+          loading="lazy"
+          allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
       </div>
     </section>
   </main>
 
   <!-- Footer section -->
   <footer class="site-footer">
-    <section class="container py-5 p-5">
+    <div class="container py-5">
       <div class="row gy-4">
-        <section class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <a href="index.html" aria-label="RunTogether home">
-            <img src="./images/RunTogether-logo.webp" alt="RunTogether" class="footer-logo mb-3" />
+            <img src="./images/RunTogether-logo.webp" alt="RunTogether" class="footer-logo mb-3">
           </a>
           <p class="footer-description">
             Helping runners find local groups, weekly training sessions and
             upcoming running events.
           </p>
-        </section>
+        </div>
 
         <nav class="col-12 col-md-6 col-lg-4" aria-label="Footer navigation">
           <h2 class="footer-heading">Quick Links</h2>
@@ -197,17 +230,16 @@
           </a>
         </section>
       </div>
-    </section>
+    </div>
 
-    <section class="footer-bottom">
+    <div class="footer-bottom">
       <div class="container">
         <p class="mb-0">
           &copy; 2026 RunTogether. All rights reserved. Developed by William Carvalho
         </p>
       </div>
-    </section>
+    </div>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
