@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Find local running groups, weekly training sessions and upcoming running events with RunTogether." />
+    content="Find local running groups, weekly training sessions and upcoming running events with RunTogether.">
 
   <title>Run Together - Home</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="index.html">
-          <img src="./images/RunTogether-logo.webp" alt="RunTogether logo" class="site-logo" />
+          <img src="./images/RunTogether-logo.webp" alt="RunTogether logo" class="site-logo">
         </a>
 
         <!-- Mobile hamburger button -->
@@ -72,7 +72,7 @@
             <p class="hero-subtitle">Run better. Run together.</p>
 
             <h1 id="hero-title" class="hero-title">
-              Find Your Pace.<br />
+              Find Your Pace.<br>
               Find Your People.
             </h1>
 
@@ -96,32 +96,37 @@
     </section>
 
     <!-- Info section -->
-    <section class="info-section">
+    <section class="info-section" aria-labelledby="benefits-title">
+      <div class="container py-5">
+        <h2 id="benefits-title" class="visually-hidden">
+          Benefits of Running Together
+        </h2>
 
-      <div class="info-grid">
-        <article class="info-card">
-          <i class="bi bi-people-fill"></i>
-          <h3>Stay Motivated</h3>
-          <p>
-            Running with others helps you stay active and enjoy the journey.
-          </p>
-        </article>
+        <div class="info-grid">
+          <article class="info-card">
+            <i class="bi bi-people-fill"></i>
+            <h3>Stay Motivated</h3>
+            <p>
+              Running with others helps you stay active and enjoy the journey.
+            </p>
+          </article>
 
-        <article class="info-card">
-          <i class="bi bi-speedometer2"></i>
-          <h3>Find Your Pace</h3>
-          <p>
-            Groups for all levels, from beginners to seasoned local runners.
-          </p>
-        </article>
+          <article class="info-card">
+            <i class="bi bi-speedometer2"></i>
+            <h3>Find Your Pace</h3>
+            <p>
+              Groups for all levels, from beginners to seasoned local runners.
+            </p>
+          </article>
 
-        <article class="info-card">
-          <i class="bi bi-calendar3"></i>
-          <h3>Community Runs</h3>
-          <p>
-            Find 5K, 10K and half-marathon events near your local community.
-          </p>
-        </article>
+          <article class="info-card">
+            <i class="bi bi-calendar3"></i>
+            <h3>Community Runs</h3>
+            <p>
+              Find 5K, 10K and half-marathon events near your local community.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -133,12 +138,14 @@
 
       <div class="row g-4">
         <article class="col-12 col-md-6 col-lg-4">
-          <section class="card running-card h-100">
+          <div class="card running-card h-100">
             <img src="./images/beginners-social-run.webp" class="card-img-top"
-              alt="Beginner running group training in a park" />
+              alt="Beginner running group training in a park">
 
-            <section class="card-body">
-              <h3 class="card-title h5">Beginner Social Run</h3>
+            <div class="card-body">
+              <h3 class="card-title">
+                Beginner Social Run
+              </h3>
 
               <p>
                 <span class="badge running-badge">Beginner</span>
@@ -153,22 +160,21 @@
                   VIEW GROUP
                 </a>
               </p>
-            </section>
-          </section>
+            </div>
+          </div>
         </article>
 
         <article class="col-12 col-md-6 col-lg-4">
-          <section class="card running-card h-100">
-            <img src="./images/city-5k-group.webp" class="card-img-top" alt="Running group training near the city" />
+          <div class="card running-card h-100">
+            <img src="./images/city-5k-group.webp" class="card-img-top" alt="Running group training near the city">
 
-            <section class="card-body">
-              <h3 class="card-title h5">City 5K Group</h3>
+            <div class="card-body">
+              <h3 class="card-title">
+                City 5K Group
+              </h3>
 
               <p>
-                <span class="badge running-badge">
-                  Beginner / Intermediate
-                </span>
-
+                <span class="badge running-badge">Beginner / Intermediate</span>
                 <span class="badge running-badge">5 km</span>
               </p>
 
@@ -180,17 +186,19 @@
                   VIEW GROUP
                 </a>
               </p>
-            </section>
-          </section>
+            </div>
+          </div>
         </article>
 
         <article class="col-12 col-md-6 col-lg-4">
-          <section class="card running-card h-100">
+          <div class="card running-card h-100">
             <img src="./images/weekend-long-run.webp" class="card-img-top"
-              alt="Running group training on a woodland trail" />
+              alt="Running group training on a woodland trail">
 
-            <section class="card-body">
-              <h3 class="card-title h5">Weekend Long Run</h3>
+            <div class="card-body">
+              <h3 class="card-title">
+                Weekend Long Run
+              </h3>
 
               <p>
                 <span class="badge running-badge">Intermediate</span>
@@ -205,8 +213,8 @@
                   VIEW GROUP
                 </a>
               </p>
-            </section>
-          </section>
+            </div>
+          </div>
         </article>
       </div>
     </section>
@@ -229,17 +237,17 @@
 
   <!-- Footer section -->
   <footer class="site-footer">
-    <section class="container py-5 p-5">
+    <div class="container py-5">
       <div class="row gy-4">
-        <section class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <a href="index.html" aria-label="RunTogether home">
-            <img src="./images/RunTogether-logo.webp" alt="RunTogether" class="footer-logo mb-3" />
+            <img src="./images/RunTogether-logo.webp" alt="RunTogether" class="footer-logo mb-3">
           </a>
           <p class="footer-description">
             Helping runners find local groups, weekly training sessions and
             upcoming running events.
           </p>
-        </section>
+        </div>
 
         <nav class="col-12 col-md-6 col-lg-4" aria-label="Footer navigation">
           <h2 class="footer-heading">Quick Links</h2>
@@ -269,15 +277,15 @@
           </a>
         </section>
       </div>
-    </section>
+    </div>
 
-    <section class="footer-bottom">
+    <div class="footer-bottom">
       <div class="container">
         <p class="mb-0">
           &copy; 2026 RunTogether. All rights reserved. Developed by William Carvalho
         </p>
       </div>
-    </section>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
