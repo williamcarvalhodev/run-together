@@ -526,9 +526,6 @@ body {
   text-align: center;
 }
 
-/* Laptop navigation */
-@media (max-width: 1280px) {}
-
 /* Tablet navigation */
 @media (max-width: 1024px) {
 
