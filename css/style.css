@@ -399,7 +399,10 @@ body {
   font-size: 2rem;
 }
 
-.suggest-group-banner .btn {
+.btn-suggest-style {
+  border-color: #84cc16;
+  background-color: #84cc16;
+  color: #0d1b2a;
   text-transform: uppercase;
 }
 
