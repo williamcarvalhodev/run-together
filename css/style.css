@@ -347,7 +347,7 @@ body {
   text-transform: uppercase;
 }
 
-.view-group-button .btn-style{
+.view-group-button .btn-style {
   border-color: #84cc16;
   background-color: #84cc16;
   color: #0d1b2a;
@@ -776,6 +776,10 @@ body {
 
   .maps-section {
     padding: 30px;
+  }
+
+  .site-footer {
+    padding: 25px;
   }
 
 }
